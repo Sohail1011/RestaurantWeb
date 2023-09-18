@@ -9,3 +9,7 @@
     border: none;
     align-self: center;
 }
+
+.principal:hover {
+    background-color: cadetblue;
+}

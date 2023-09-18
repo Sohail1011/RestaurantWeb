@@ -9,7 +9,7 @@ export default function App() {
       <section className="column1">
         <h1>Get your <span>snacks</span> <br /> Delivery at your <br /> Doorstep</h1>
         <p>Download the app get our ice cream, snacks, <br /> drinks, pastries van in ~10 minutes.</p>
-        <div className="buttons-options scale-up-center">
+        <div className="buttons-options">
           <ButtonChange text="Order Now" />
           <ButtonChange text="How it's work" />
         </div>

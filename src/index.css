@@ -49,6 +49,10 @@ body {
     border: 1px solid black;
 }
 
-.column2 img{
+.column2 img {
     height: 45rem;
+}
+
+.buttons-options button:nth-child(2):hover {
+    background-color: cadetblue;
 }

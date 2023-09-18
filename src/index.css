@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E6E8D2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1800px;
+    margin-left: auto;
+}
+
+.column1 {
+    min-height: 80vh;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column1 p {
+    font-weight: 600;
+}
+
+.column1 h1 {
+    font-size: 2.5rem;
+}
+
+.column1 span {
+    color: #B84E41;
+}
+
+.buttons-options {
+    display: flex;
+    gap: 3rem;
+}
+
+.buttons-options button:nth-child(2) {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.column2 img{
+    height: 45rem;
+}

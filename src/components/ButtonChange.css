@@ -1,0 +1,11 @@
+.principal {
+    background-color: #B85043;
+    padding: 1.2rem 2.9rem 1.2rem 2.9rem;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 2rem;
+    border: none;
+    align-self: center;
+}

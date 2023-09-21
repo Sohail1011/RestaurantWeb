@@ -1,6 +1,8 @@
 import ButtonChange from "./components/ButtonChange";
 import Navbar from "./components/Navbar";
 import michael from './assets/img/Frame.svg';
+import Snacks from "./components/Snacks";
+import Footer from "./components/Footer";
 
 export default function App() {
   return <>
@@ -18,5 +20,9 @@ export default function App() {
         <img src={michael} alt="Michael" />
       </section>
     </article>
+    <article className="description">
+      <Snacks />
+    </article>
+    <Footer />
   </>;
 }

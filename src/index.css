@@ -56,3 +56,21 @@ body {
 .buttons-options button:nth-child(2):hover {
     background-color: cadetblue;
 }
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.description span {
+    color: #B54639;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.description h2 {
+    font-size: 2.5em;
+}

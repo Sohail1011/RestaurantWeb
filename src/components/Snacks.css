@@ -1,0 +1,16 @@
+.table {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1rem;
+}

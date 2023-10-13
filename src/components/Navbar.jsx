@@ -9,11 +9,11 @@ function Navbar() {
         <nav className="navigation">
             <h2>Streetreats</h2>
             <ul className='items'>
-                <li>{list[0]}</li>
-                <li>{list[1]}</li>
-                <li>{list[2]}</li>
-                <li>{list[3]}</li>
-                <li>{list[4]}</li>
+                <li><a href="#">{list[0]}</a></li>
+                <li><a href="#">{list[1]}</a></li>
+                <li><a href="#">{list[2]}</a></li>
+                <li><a href="#">{list[3]}</a></li>
+                <li><a href="#">{list[4]}</a></li>
             </ul>
             <ButtonChange text="Login" />
         </nav>

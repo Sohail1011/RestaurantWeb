@@ -26,7 +26,7 @@ footer {
 .feet p {
     color: gray;
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .options {
@@ -40,12 +40,12 @@ footer {
     border: none;
     padding: 0.8rem;
     width: 18rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gabarito', sans-serif;
 }
 
 .options button {
     background-color: #B34437;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gabarito', sans-serif;
     border: none;
     color: white;
     padding-left: 0.7rem;
@@ -67,9 +67,25 @@ footer {
     justify-content: space-between;
 }
 
-.logos{
+.logos {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
+}
+
+.custom-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.follow-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.offer p {
+    font-size: 1rem;
 }

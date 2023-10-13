@@ -10,7 +10,7 @@ export default function Footer() {
                 </div>
                 <div>
                     <h3>Custome Service</h3>
-                    <ul>
+                    <ul className='custom-ul'>
                         <li>Customer Service</li>
                         <li>Contact Us</li>
                         <li>Terms & Condicions</li>
@@ -20,14 +20,14 @@ export default function Footer() {
                 </div>
                 <div>
                     <h3>Follow US On</h3>
-                    <ul>
+                    <ul className='follow-ul'>
                         <li>Facebook</li>
                         <li>YouTube</li>
                         <li>Twitter</li>
                         <li>Instagram</li>
                     </ul>
                 </div>
-                <div>
+                <div className='offer'>
                     <h3>Subscribe to get 10% off your first order</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <form className="options">

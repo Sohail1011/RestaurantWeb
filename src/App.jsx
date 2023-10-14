@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import michael from './assets/img/Frame.svg';
 import Snacks from "./components/Snacks";
 import Footer from "./components/Footer";
+import Better from "./components/Better";
 
 export default function App() {
   return <>
@@ -23,6 +24,7 @@ export default function App() {
     <article className="description">
       <Snacks />
     </article>
+    <Better />
     <Footer />
   </>;
 }

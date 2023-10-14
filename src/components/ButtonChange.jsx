@@ -1,7 +1,7 @@
 import './ButtonChange.css';
 
-export default function ButtonChange(props) {
+export default function ButtonChange({ text }) {
     return (
-        <button className="principal">{props.text}</button>
+        <button className="principal">{text}</button>
     )
 }

@@ -1,0 +1,22 @@
+.potatoes {
+    display: flex;
+    min-height: 14rem;
+    margin: 6rem;
+    gap: 25rem;
+}
+
+.autodisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.autodisplay h2 {
+    font-size: 5rem;
+}
+
+.autodisplay p {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
